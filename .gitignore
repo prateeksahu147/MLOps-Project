@@ -2,13 +2,19 @@
 __pycache__/
 *.py[cod]
 *$py.class
+*.jpg
+*.pdf
+*.csv
+*.xml
+.idea/
 
-.gitignore/
+.gitignore
 # C extensions
 *.so
 
 # Distribution / packaging
 .Python
+venv/
 build/
 develop-eggs/
 dist/
