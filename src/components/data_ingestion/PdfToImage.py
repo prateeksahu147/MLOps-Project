@@ -19,7 +19,6 @@ class PdfToImageConfig:
     image_dir_path: str = os.path.join(BASE_DIR, 'data', "image")
     csv_dir_path: str = os.path.join(BASE_DIR, 'data', "csv")
 
-
 class PdfToImage:
     def __init__(self):
         self.ingestion_config = PdfToImageConfig()
